@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Starlink Startup</title>
+    <link rel="stylesheet" href="assets/styles/style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <header>
+      <div class="jumbotron">
+        <h1>Starlink</h1>
+        <p>
+          Perusahaan manufaktur aerospace dan jasa transportasi ruang angkasa
+          swasta yang didirikan oleh Elon Musk.
+        </p>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="#pengertian">Pengertian</a></li>
+          <li><a href="#keunggulan">Keunggulan</a></li>
+          <li><a href="#kelemahan">Kelemahan</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <div id="content" class="card">
+        <article id="pengertian">
+          <h2>Pengertian</h2>
+          <img
+            src="assets/image/Starlink.jpeg"
+            alt="pengertian"
+            class="featured-image"
+          />
+          <p>
+            Starlink adalah sistem internet berbasis satelit dengan orbit
+            relatif dekat dengan permukaan bumi atau low Earth orbit (LEO).
+            Alih-alih menggunakan kabel serat optik, Starlink mengandalkan
+            konstelasi ribuan satelit kecil berorbit rendah untuk mengirim data
+            dengan kecepatan tinggi. Mudahnya, Starlink mengirimkan data
+            internet melalui gelombang radio ke satelit-satelit di orbit, yang
+            kemudian meneruskannya ke pengguna di berbagai belahan bumi. Sistem
+            internet satelit biasanya diandalkan di daerah-daerah terpencil yang
+            tak terjangkau kabel serat optik.
+          </p>
+
+          <p>
+            SpaceX, perusahaan transportasi antariksa milik Elon Musk asal
+            Amerika Serikat, mulanya mengirimkan 60 satelit ke orbit rendah bumi
+            pada Mei 2019 dan meluncurkan layanan internet Starlink pada Oktober
+            2020. Per April 2024, telah ada 5.874 satelit Starlink di orbit, dan
+            5.800 di antaranya masih beroperasi, menurut catatan astronom
+            Jonathan McDowell. Tiap satelit Starlink, yang diperkirakan berjarak
+            550 kilometer dari permukaan bumi, berumur kira-kira lima tahun.
+            Pada 20 Mei lalu, Musk mengatakan melalui akun X-nya bahwa jumlah
+            pelanggan Starlink telah menyentuh 3 juta, yang tersebar di 99
+            negara (termasuk Indonesia). Ke depannya, Musk berambisi
+            menghadirkan "megakonstelasi" dengan target 42.000 satelit Starlink
+            di orbit, sehingga dapat menyediakan akses internet cepat untuk
+            semua.
+          </p>
+        </article>
+
+        <article id="keunggulan" class="card">
+          <h2>Keunggulan</h2>
+          <img
+            src="assets/image/ster.jpg"
+            alt="keunggulan"
+            class="featured-image"
+          />
+
+          <section>
+            <h3>Konektivitas yang Reliabel</h3>
+            <p>
+              Jaringan satelit Starlink memastikan bahwa pengguna dapat mempertahankan koneksi internet yang stabil, bahkan di area-area di mana konektivitas tradisional terbatas atau tidak ada.
+              Hal ini sangat bermanfaat bagi Indonesia, di mana area-area pedesaan seringkali mengalami konektivitas internet yang buruk, menghambat pertumbuhan ekonomi dan perkembangan.
+            </p>
+          </section>
+
+          <section>
+            <h3>Penutupan Global</h3>
+            <p>
+              Jaringan satelit Starlink memberikan penutupan global, membuatnya solusi ideal bagi Indonesia, di mana konektivitas internet masih menjadi tantangan besar di area-area pedesaan.
+              Dengan Starlink, pengguna dapat menikmati akses internet yang tidak terputus di mana saja dan kapan saja.
+            </p>
+          </section>
+        </article>
+
+        <article id="kelemahan" class="card">
+          <h2>Kelemahan</h2>
+          <p>
+            Namun, Starlink juga memiliki beberapa kekurangan yang dapat memengaruhi layanannya:
+          </p>
+
+          <section>
+            <h3>Letak Terminal Internet Wajib Minim Halangan</h3>
+            <img
+              src="assets/image/obs.jpg"
+              alt="farm house"
+              class="featured-image"
+            />
+            <p>
+              Untuk berfungsi optimal, terminal Starlink harus dipasang di area terbuka tanpa halangan seperti pohon atau bangunan tinggi.
+              Hal ini disebabkan oleh sifat jaringan yang frekuensinya mudah terganggu oleh penghalang fisik atau cuaca buruk.
+            </p>
+          </section>
+
+          <section>
+            <h3>Harga Berlangganan Lebih Mahal</h3>
+            <img
+              src="assets/image/tra.png"
+              alt="bosscha"
+              class="featured-image"
+            />
+            <p>
+              Biaya langganan Starlink relatif tinggi dibandingkan dengan penyedia layanan internet lokal di Indonesia. Dengan biaya sekitar Rp750.000 per bulan,
+              Starlink lebih mahal daripada layanan lokal yang menawarkan kecepatan hingga 250 Mbps dengan harga Rp400.000 – Rp500.000 per bulan.
+            </p>
+          </section>
+        </article>
+      </div>
+
+      <aside>
+        <article class="profile card">
+          <header>
+            <h2>Starlink Corp</h2>
+            <p>Internet Satelit Tanpa Router</p>
+            <figure>
+              <img src="assets/image/star.jpg" />
+              <figcaption>Logo</figcaption>
+            </figure>
+          </header>
+
+          <section>
+            <h3>Informasi Lainnya</h3>
+
+            <table>
+              <tr>
+                <th>Negara  :</th>
+                <td>Amerika Serikat</td>
+              </tr>
+              <tr>
+                <th>First Launch:</th>
+                <td>24 Mei 2019</td>
+              </tr>
+              <tr>
+                <th>Harga :</th>
+                <td>Rp 4.680.000 - Rp 64.000.000</td>
+              </tr>
+              <tr>
+                <th>Penemu :</th>
+                <td>Elon Musk</td>
+              </tr>
+              <tr>
+                <th>Kode Telepon :</th>
+                <td>70532 7880</td>
+              </tr>
+            </table>
+          </section>
+        </article>
+      </aside>
+    </main>
+
+    <footer>
+      <p>© 2024 Starlink. Yoskut Corp™</p>
+    </footer>
+  </body>
+</html>
